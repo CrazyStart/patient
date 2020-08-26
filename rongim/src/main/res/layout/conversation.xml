@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/shape_conversation_title_bg">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/back_icon"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/back_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="聊天中"
+                android:textColor="#ffffff"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:id="@+id/title"
+                android:layout_centerInParent="true" />
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/more_icon"
+                android:layout_marginRight="15dp"
+                android:layout_alignParentRight="true"
+                android:id="@+id/right_icon" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#F2F2F2" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <fragment
+                    android:id="@+id/conversation"
+                    android:name="io.rong.imkit.fragment.ConversationFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:orientation="horizontal"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="46dp"
+                    android:background="#D1CDEA"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_status_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#6464CD"
+                        android:textSize="12sp"
+                        android:text="咨询已结束"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:id="@+id/tv_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:textColor="#FF3754"
+                        android:text="1"/>
+
+                    <TextView
+                        android:id="@+id/tv_status_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#6464CD"
+                        android:textSize="12sp"
+                        android:text="次回复"
+                        android:gravity="center_horizontal" />
+
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:background="#F8F9FC">
+
+        <TextView
+            android:id="@+id/tv_empty_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#999999"
+            android:layout_marginTop="16dp"
+            android:textSize="12sp"
+            android:text="5月20日 09:36" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="#848C9C"
+            android:textSize="12sp"
+            android:text="如需咨询，请在下方发起在线问诊" />
+
+        <ImageView
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/ic_empty" />
+
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_bottom_status"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:textColor="#6464CD"
+            android:textSize="12sp"
+            android:text="咨询已结束"
+            android:visibility="gone"
+            android:paddingTop="8dp"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="93dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/shape_bottom_status_bg" />
+
+
+        <LinearLayout
+            android:id="@+id/layout_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone"
+            android:background="@drawable/shape_bottom_bg">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:textColor="#212121"
+                android:textSize="12sp"
+                android:text="如需咨询，请发起在线问诊：" />
+
+            <TextView
+                android:id="@+id/tv_consult_online"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginEnd="48dp"
+                android:gravity="center"
+                android:background="@drawable/shape_consult_online_btn_bg"
+                android:text="在线问诊"
+                android:textSize="17sp"
+                android:layout_marginBottom="33dp"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+</RelativeLayout>

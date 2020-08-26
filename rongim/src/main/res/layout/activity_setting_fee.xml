@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/root"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/title_layout"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/back_icon"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/back_icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="咨询费设置"
+            android:textColor="#333333"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:id="@+id/title"
+            android:layout_centerInParent="true"/>
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/more_icon"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:visibility="invisible"
+            android:id="@+id/right_icon"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/title_layout"
+        android:id="@+id/title_line"
+        android:background="#F2F2F2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#E9dd91"
+        android:id="@+id/info_layout"
+        android:layout_below="@id/title_line"
+        android:gravity="center_vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:gravity="center_vertical"
+            android:textSize="12sp"
+            android:textColor="#333333"
+            android:paddingLeft="16dp"
+            android:text="本页面针对患者单独设置咨询费"
+            />
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:src="@drawable/waring_icon"
+            android:layout_marginLeft="6dp"/>
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:paddingLeft="16dp"
+        android:layout_below="@+id/info_layout"
+        android:id="@+id/setting_layout"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="￥35/次"
+            android:id="@+id/input_value"
+            android:layout_centerVertical="true"
+            android:textColor="#AD85FC"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="单独修改"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:textColor="#333333"
+            android:textSize="17sp"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:id="@+id/setting_view"
+        android:layout_below="@+id/setting_layout"
+        android:background="#F4F4F4"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/setting_view">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="温馨提示："
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="16dp"
+            android:textSize="12sp"
+            android:textColor="#666666"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1、修改咨询付费请参考患者付费能力；"
+            android:layout_marginLeft="16dp"
+            android:textSize="12sp"
+            android:textColor="#666666"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2、修改成功后，患者将从下一次咨询进行生效；"
+            android:layout_marginLeft="16dp"
+            android:textSize="12sp"
+            android:textColor="#666666"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3、咨询推广期暂不收取平台服务费；"
+            android:layout_marginLeft="16dp"
+            android:textSize="12sp"
+            android:textColor="#666666"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/bottom_layout"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/border_input_box"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:textColor="#333333"
+                android:textSize="16sp"
+                android:inputType="number|numberDecimal"
+                android:maxLength="6"
+                android:id="@+id/edit_num"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="56dp"
+            android:layout_height="30dp"
+            android:background="@drawable/btn_bg"
+            android:text="确认"
+            android:id="@+id/sure_btn"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+{
+  "nativePlugins": [
+    {
+      "hooksClass": "",
+      "plugins": [
+        {
+          "type": "module",
+          "name": "DCloud-RichAlert",
+          "class": "uni.dcloud.io.uniplugin_richalert.RichAlertWXModule"
+        }
+      ]
+    },
+    {
+      "hooksClass": "uni.dcloud.io.uniplugin_stepcounter.StepCounterHookProxy"
+    },
+    {
+      "hooksClass": "com.baobaoloufu.android.yunpay.RongIM_AppProxy",
+      "plugins": [
+        {
+          "type": "module",
+          "name": "GZF-RongIM",
+          "class": "com.baobaoloufu.android.yunpay.RongIMWXModule"
+        }
+      ]
+    }
+  ]
+}

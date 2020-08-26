@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/shape_dialog_send_consult"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="赠送回复机会"
+            android:textSize="16sp"
+            android:textColor="#222222"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"/>
+
+
+        <LinearLayout
+            android:id="@+id/layout_send_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:background="#F0F0FB">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#212121"
+                        android:textSize="16sp"
+                        android:text="赠送"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#FF3754"
+                        android:textSize="16sp"
+                        android:text="1次"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#212121"
+                        android:textSize="16sp"
+                        android:text="回复"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="#848C9C"
+                    android:layout_marginTop="4dp"
+                    android:text="患者可获得1条免费回复，1条回复后咨询关闭"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_send_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:background="#ffffff">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#212121"
+                        android:textSize="16sp"
+                        android:text="赠送"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#FF3754"
+                        android:textSize="16sp"
+                        android:text="3次"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#212121"
+                        android:textSize="16sp"
+                        android:text="回复"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="#848C9C"
+                    android:layout_marginTop="4dp"
+                    android:text="患者可获得3条免费回复，3条回复后咨询关闭"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_send_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:background="#ffffff">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#212121"
+                        android:textSize="16sp"
+                        android:text="赠送"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#FF3754"
+                        android:textSize="16sp"
+                        android:text="1天"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#212121"
+                        android:textSize="16sp"
+                        android:text="回复"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="#848C9C"
+                    android:layout_marginTop="4dp"
+                    android:text="患者可获得最长1天免费回复，您可以随时结束这次咨询1条回复后咨询关闭"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="35dp"
+            android:layout_marginTop="12dp">
+
+            <TextView
+                android:id="@+id/cancel_tv"
+                android:layout_width="104dp"
+                android:layout_height="40dp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_marginStart="20dp"
+                android:textColor="#828282"
+                android:background="@drawable/shape_end_consult"
+                android:text="取消"/>
+
+            <TextView
+                android:id="@+id/confirm_tv"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:background="@drawable/shape_send_consult_btn"
+                android:layout_marginEnd="20dp"
+                android:textColor="#ffffff"
+                android:layout_marginStart="15dp"
+                android:text="确认赠送"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

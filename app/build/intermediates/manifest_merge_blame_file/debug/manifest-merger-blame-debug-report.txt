@@ -1,0 +1,1138 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sureemed.consumer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/xx/patient/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/xx/patient/app/src/main/AndroidManifest.xml
+10
+11    <supports-screens
+11-->/Users/xx/patient/app/src/main/AndroidManifest.xml:8:5-13:39
+12        android:anyDensity="true"
+12-->/Users/xx/patient/app/src/main/AndroidManifest.xml:9:9-34
+13        android:largeScreens="true"
+13-->/Users/xx/patient/app/src/main/AndroidManifest.xml:10:9-36
+14        android:normalScreens="true"
+14-->/Users/xx/patient/app/src/main/AndroidManifest.xml:11:9-37
+15        android:resizeable="true"
+15-->/Users/xx/patient/app/src/main/AndroidManifest.xml:12:9-34
+16        android:smallScreens="true" />
+16-->/Users/xx/patient/app/src/main/AndroidManifest.xml:13:9-36
+17
+18    <!-- Barcode(二维码)  begin -->
+19    <uses-permission android:name="android.permission.CAMERA" />
+19-->/Users/xx/patient/app/src/main/AndroidManifest.xml:16:5-65
+19-->/Users/xx/patient/app/src/main/AndroidManifest.xml:16:22-62
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->/Users/xx/patient/app/src/main/AndroidManifest.xml:17:5-81
+20-->/Users/xx/patient/app/src/main/AndroidManifest.xml:17:22-78
+21
+22    <uses-feature android:name="android.hardware.camera" />
+22-->/Users/xx/patient/app/src/main/AndroidManifest.xml:19:5-60
+22-->/Users/xx/patient/app/src/main/AndroidManifest.xml:19:19-57
+23    <uses-feature android:name="android.hardware.camera.autofocus" />
+23-->/Users/xx/patient/app/src/main/AndroidManifest.xml:20:5-70
+23-->/Users/xx/patient/app/src/main/AndroidManifest.xml:20:19-67
+24
+25    <uses-permission android:name="android.permission.VIBRATE" />
+25-->/Users/xx/patient/app/src/main/AndroidManifest.xml:22:5-66
+25-->/Users/xx/patient/app/src/main/AndroidManifest.xml:22:22-63
+26    <uses-permission android:name="android.permission.FLASHLIGHT" />
+26-->/Users/xx/patient/app/src/main/AndroidManifest.xml:23:5-69
+26-->/Users/xx/patient/app/src/main/AndroidManifest.xml:23:22-66
+27    <!-- Barcode(二维码)  end -->
+28
+29    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+29-->/Users/xx/patient/app/src/main/AndroidManifest.xml:27:5-80
+29-->/Users/xx/patient/app/src/main/AndroidManifest.xml:27:22-77
+30    <uses-permission android:name="android.permission.REPLACE_EXISTING_PACKAGE" />
+30-->/Users/xx/patient/app/src/main/AndroidManifest.xml:28:5-82
+30-->/Users/xx/patient/app/src/main/AndroidManifest.xml:28:22-80
+31    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+31-->/Users/xx/patient/app/src/main/AndroidManifest.xml:30:5-82
+31-->/Users/xx/patient/app/src/main/AndroidManifest.xml:30:22-80
+32
+33    <!-- Barcode(二维码)  begin -->
+34    <uses-permission android:name="android.permission.CAMERA" />
+34-->/Users/xx/patient/app/src/main/AndroidManifest.xml:16:5-65
+34-->/Users/xx/patient/app/src/main/AndroidManifest.xml:16:22-62
+35    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+35-->/Users/xx/patient/app/src/main/AndroidManifest.xml:17:5-81
+35-->/Users/xx/patient/app/src/main/AndroidManifest.xml:17:22-78
+36
+37    <uses-feature android:name="android.hardware.camera" />
+37-->/Users/xx/patient/app/src/main/AndroidManifest.xml:19:5-60
+37-->/Users/xx/patient/app/src/main/AndroidManifest.xml:19:19-57
+38    <uses-feature android:name="android.hardware.camera.autofocus" />
+38-->/Users/xx/patient/app/src/main/AndroidManifest.xml:20:5-70
+38-->/Users/xx/patient/app/src/main/AndroidManifest.xml:20:19-67
+39
+40    <uses-permission android:name="android.permission.VIBRATE" />
+40-->/Users/xx/patient/app/src/main/AndroidManifest.xml:22:5-66
+40-->/Users/xx/patient/app/src/main/AndroidManifest.xml:22:22-63
+41    <uses-permission android:name="android.permission.FLASHLIGHT" />
+41-->/Users/xx/patient/app/src/main/AndroidManifest.xml:23:5-69
+41-->/Users/xx/patient/app/src/main/AndroidManifest.xml:23:22-66
+42    <uses-permission android:name="android.permission.INTERNET" />
+42-->/Users/xx/patient/app/src/main/AndroidManifest.xml:43:5-67
+42-->/Users/xx/patient/app/src/main/AndroidManifest.xml:43:22-64
+43    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+43-->/Users/xx/patient/app/src/main/AndroidManifest.xml:44:5-79
+43-->/Users/xx/patient/app/src/main/AndroidManifest.xml:44:22-76
+44    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+44-->/Users/xx/patient/app/src/main/AndroidManifest.xml:45:5-76
+44-->/Users/xx/patient/app/src/main/AndroidManifest.xml:45:22-73
+45    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+45-->/Users/xx/patient/app/src/main/AndroidManifest.xml:46:5-75
+45-->/Users/xx/patient/app/src/main/AndroidManifest.xml:46:22-72
+46    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+46-->/Users/xx/patient/app/src/main/AndroidManifest.xml:17:5-81
+46-->/Users/xx/patient/app/src/main/AndroidManifest.xml:17:22-78
+47    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+47-->/Users/xx/patient/app/src/main/AndroidManifest.xml:48:5-81
+47-->/Users/xx/patient/app/src/main/AndroidManifest.xml:48:22-78
+48
+49    <!-- Barcode(二维码)  end -->
+50
+51
+52    <!-- Push(推送)只能选择一个推送组件 -->
+53    <!-- Push(推送)-MKeyPush begin -->
+54    <!--
+55    <uses-permission android:name="android.permission.INTERNET"/>
+56    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+57    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+58    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+59    -->
+60    <!-- Push(推送)-MKeyPush  end -->
+61
+62
+63    <!-- 小米推送 -->
+64    <!--
+65    <uses-permission android:name="android.permission.INTERNET"/>
+66    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+67    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+68    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+69    <uses-permission android:name="android.permission.GET_TASKS"/>
+70    <uses-permission android:name="android.permission.VIBRATE"/>
+71    <uses-permission android:name="android.permission.GET_TASKS"/>
+72    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+73    <uses-permission android:name="android.permission.GET_TOP_ACTIVITY_INFO"/>
+74    <uses-permission android:name="com.HBuilder.integrate.permission.MIPUSH_RECEIVE"/>
+75    <permission android:name="com.HBuilder.integrate.permission.MIPUSH_RECEIVE" android:protectionLevel="signature"/>
+76    -->
+77    <!-- 小米推送 end -->
+78
+79
+80    <!-- Push(推送)-个推  begin -->
+81    <uses-permission android:name="android.permission.INTERNET" />
+81-->/Users/xx/patient/app/src/main/AndroidManifest.xml:43:5-67
+81-->/Users/xx/patient/app/src/main/AndroidManifest.xml:43:22-64
+82    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+82-->/Users/xx/patient/app/src/main/AndroidManifest.xml:46:5-75
+82-->/Users/xx/patient/app/src/main/AndroidManifest.xml:46:22-72
+83    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+83-->/Users/xx/patient/app/src/main/AndroidManifest.xml:44:5-79
+83-->/Users/xx/patient/app/src/main/AndroidManifest.xml:44:22-76
+84    <uses-permission android:name="android.permission.WAKE_LOCK" />
+84-->/Users/xx/patient/app/src/main/AndroidManifest.xml:85:5-68
+84-->/Users/xx/patient/app/src/main/AndroidManifest.xml:85:22-65
+85    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+85-->/Users/xx/patient/app/src/main/AndroidManifest.xml:86:5-81
+85-->/Users/xx/patient/app/src/main/AndroidManifest.xml:86:22-78
+86    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+86-->/Users/xx/patient/app/src/main/AndroidManifest.xml:17:5-81
+86-->/Users/xx/patient/app/src/main/AndroidManifest.xml:17:22-78
+87    <uses-permission android:name="android.permission.VIBRATE" />
+87-->/Users/xx/patient/app/src/main/AndroidManifest.xml:22:5-66
+87-->/Users/xx/patient/app/src/main/AndroidManifest.xml:22:22-63
+88    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+88-->/Users/xx/patient/app/src/main/AndroidManifest.xml:45:5-76
+88-->/Users/xx/patient/app/src/main/AndroidManifest.xml:45:22-73
+89    <uses-permission android:name="android.permission.CALL_PHONE" />
+89-->/Users/xx/patient/app/src/main/AndroidManifest.xml:90:5-69
+89-->/Users/xx/patient/app/src/main/AndroidManifest.xml:90:22-66
+90    <!-- Push(推送)-个推    end -->
+91
+92
+93    <!-- Share(分享)  begin -->
+94    <!-- Share - 新浪微博分享 -->
+95    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+95-->/Users/xx/patient/app/src/main/AndroidManifest.xml:96:5-76
+95-->/Users/xx/patient/app/src/main/AndroidManifest.xml:96:22-73
+96    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+96-->/Users/xx/patient/app/src/main/AndroidManifest.xml:45:5-76
+96-->/Users/xx/patient/app/src/main/AndroidManifest.xml:45:22-73
+97    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+97-->/Users/xx/patient/app/src/main/AndroidManifest.xml:44:5-79
+97-->/Users/xx/patient/app/src/main/AndroidManifest.xml:44:22-76
+98    <!-- Share - 腾讯微博分享 -->
+99    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+99-->/Users/xx/patient/app/src/main/AndroidManifest.xml:44:5-79
+99-->/Users/xx/patient/app/src/main/AndroidManifest.xml:44:22-76
+100    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+100-->/Users/xx/patient/app/src/main/AndroidManifest.xml:45:5-76
+100-->/Users/xx/patient/app/src/main/AndroidManifest.xml:45:22-73
+101    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+101-->/Users/xx/patient/app/src/main/AndroidManifest.xml:96:5-76
+101-->/Users/xx/patient/app/src/main/AndroidManifest.xml:96:22-73
+102    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+102-->/Users/xx/patient/app/src/main/AndroidManifest.xml:48:5-81
+102-->/Users/xx/patient/app/src/main/AndroidManifest.xml:48:22-78
+103    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+103-->/Users/xx/patient/app/src/main/AndroidManifest.xml:104:5-79
+103-->/Users/xx/patient/app/src/main/AndroidManifest.xml:104:22-76
+104    <!-- Share - 微信分享 -->
+105    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+105-->/Users/xx/patient/app/src/main/AndroidManifest.xml:106:5-80
+105-->/Users/xx/patient/app/src/main/AndroidManifest.xml:106:22-77
+106    <!-- Push(推送)   end -->
+107
+108
+109    <!-- Speech(语音识别)  begin -->
+110    <!-- Speech - 讯飞语音云 -->
+111    <uses-permission android:name="android.permission.INTERNET" />
+111-->/Users/xx/patient/app/src/main/AndroidManifest.xml:43:5-67
+111-->/Users/xx/patient/app/src/main/AndroidManifest.xml:43:22-64
+112    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+112-->/Users/xx/patient/app/src/main/AndroidManifest.xml:17:5-81
+112-->/Users/xx/patient/app/src/main/AndroidManifest.xml:17:22-78
+113    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+113-->/Users/xx/patient/app/src/main/AndroidManifest.xml:114:5-71
+113-->/Users/xx/patient/app/src/main/AndroidManifest.xml:114:22-68
+114    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+114-->/Users/xx/patient/app/src/main/AndroidManifest.xml:44:5-79
+114-->/Users/xx/patient/app/src/main/AndroidManifest.xml:44:22-76
+115    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+115-->/Users/xx/patient/app/src/main/AndroidManifest.xml:45:5-76
+115-->/Users/xx/patient/app/src/main/AndroidManifest.xml:45:22-73
+116    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+116-->/Users/xx/patient/app/src/main/AndroidManifest.xml:117:5-79
+116-->/Users/xx/patient/app/src/main/AndroidManifest.xml:117:22-76
+117    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+117-->/Users/xx/patient/app/src/main/AndroidManifest.xml:46:5-75
+117-->/Users/xx/patient/app/src/main/AndroidManifest.xml:46:22-72
+118    <!-- Speech(语音识别)  end -->
+119
+120
+121    <!-- Statistic(统计)  begin -->
+122    <!-- Statistic - 友盟统计 -->
+123    <uses-permission android:name="android.permission.READ_LOGS" />
+123-->/Users/xx/patient/app/src/main/AndroidManifest.xml:124:5-68
+123-->/Users/xx/patient/app/src/main/AndroidManifest.xml:124:22-65
+124    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+124-->/Users/xx/patient/app/src/main/AndroidManifest.xml:86:5-81
+124-->/Users/xx/patient/app/src/main/AndroidManifest.xml:86:22-78
+125    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+125-->/Users/xx/patient/app/src/main/AndroidManifest.xml:126:5-79
+125-->/Users/xx/patient/app/src/main/AndroidManifest.xml:126:22-76
+126    <!-- Statistic(统计)  end -->
+127
+128
+129    <!-- 小米分享 -->
+130    <uses-permission android:name="com.xiaomi.permission.AUTH_SERVICE" />
+130-->/Users/xx/patient/app/src/main/AndroidManifest.xml:131:5-74
+130-->/Users/xx/patient/app/src/main/AndroidManifest.xml:131:22-71
+131
+132    <!-- 华为 -->
+133    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+133-->/Users/xx/patient/app/src/main/AndroidManifest.xml:134:5-90
+133-->/Users/xx/patient/app/src/main/AndroidManifest.xml:134:22-88
+134    <uses-permission android:name="android.permission.INTERNET" />
+134-->/Users/xx/patient/app/src/main/AndroidManifest.xml:43:5-67
+134-->/Users/xx/patient/app/src/main/AndroidManifest.xml:43:22-64
+135    <!-- 三星 -->
+136    <!-- <uses-permission android:name="com.sec.android.provider.badge.permission.READ"/> -->
+137    <!-- <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE"/> -->
+138    <!-- OPPO -->
+139    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+139-->/Users/xx/patient/app/src/main/AndroidManifest.xml:140:5-81
+139-->/Users/xx/patient/app/src/main/AndroidManifest.xml:140:22-79
+140    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" />
+140-->/Users/xx/patient/app/src/main/AndroidManifest.xml:141:5-82
+140-->/Users/xx/patient/app/src/main/AndroidManifest.xml:141:22-80
+141    <!-- 联想ZUK -->
+142    <uses-permission android:name="android.permission.READ_APP_BADGE" />
+142-->/Users/xx/patient/app/src/main/AndroidManifest.xml:143:5-72
+142-->/Users/xx/patient/app/src/main/AndroidManifest.xml:143:22-70
+143    <!-- HTC -->
+144    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+144-->/Users/xx/patient/app/src/main/AndroidManifest.xml:145:5-80
+144-->/Users/xx/patient/app/src/main/AndroidManifest.xml:145:22-78
+145    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" />
+145-->/Users/xx/patient/app/src/main/AndroidManifest.xml:146:5-82
+145-->/Users/xx/patient/app/src/main/AndroidManifest.xml:146:22-80
+146    <uses-permission android:name="com.asus.msa.SupplementaryDID.ACCESS" />
+146-->[msa_mdid_1.0.13.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/f25aa26be4e3af0b736a5664de5201ac/jetified-msa_mdid_1.0.13/AndroidManifest.xml:8:5-76
+146-->[msa_mdid_1.0.13.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/f25aa26be4e3af0b736a5664de5201ac/jetified-msa_mdid_1.0.13/AndroidManifest.xml:8:22-73
+147
+148    <uses-feature android:name="android.hardware.nfc.hce" />
+148-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-61
+148-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:19-58
+149
+150    <uses-permission android:name="android.permission.NFC" />
+150-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:5-62
+150-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:22-59
+151    <uses-permission android:name="org.simalliance.openmobileapi.SMARTCARD" />
+151-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:5-79
+151-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:22-76
+152    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- 拍照等 -->
+152-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:5-78
+152-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:22-75
+153    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+153-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:5-73
+153-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:22-70
+154    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" /> <!-- 使用ActivityManager需要 -->
+154-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:5-85
+154-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:22-82
+155    <uses-permission android:name="android.permission.GET_TASKS" />
+155-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:5-68
+155-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:22-65
+156
+157    <application
+157-->/Users/xx/patient/app/src/main/AndroidManifest.xml:148:5-232:19
+158        android:name="io.dcloud.application.DCloudApplication"
+158-->/Users/xx/patient/app/src/main/AndroidManifest.xml:149:9-63
+159        android:allowBackup="true"
+159-->/Users/xx/patient/app/src/main/AndroidManifest.xml:150:9-35
+160        android:allowClearUserData="true"
+160-->/Users/xx/patient/app/src/main/AndroidManifest.xml:151:9-42
+161        android:appComponentFactory="rongim"
+161-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-45
+162        android:debuggable="true"
+163        android:icon="@drawable/icon"
+163-->/Users/xx/patient/app/src/main/AndroidManifest.xml:152:9-38
+164        android:label="@string/app_name"
+164-->/Users/xx/patient/app/src/main/AndroidManifest.xml:153:9-41
+165        android:largeHeap="true"
+165-->/Users/xx/patient/app/src/main/AndroidManifest.xml:154:9-33
+166        android:networkSecurityConfig="@xml/network_security_config"
+166-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:9-69
+167        android:supportsRtl="true"
+167-->/Users/xx/patient/app/src/main/AndroidManifest.xml:155:9-35
+168        android:testOnly="true"
+169        android:usesCleartextTraffic="true" >
+169-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:159:9-44
+170
+171        <!-- 应用入口 -->
+172        <activity
+172-->/Users/xx/patient/app/src/main/AndroidManifest.xml:158:9-180:20
+173            android:name="io.dcloud.PandoraEntry"
+173-->/Users/xx/patient/app/src/main/AndroidManifest.xml:159:13-50
+174            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|fontScale"
+174-->/Users/xx/patient/app/src/main/AndroidManifest.xml:161:13-92
+175            android:hardwareAccelerated="true"
+175-->/Users/xx/patient/app/src/main/AndroidManifest.xml:162:13-47
+176            android:theme="@style/TranslucentTheme"
+176-->/Users/xx/patient/app/src/main/AndroidManifest.xml:160:13-52
+177            android:windowSoftInputMode="adjustResize" >
+177-->/Users/xx/patient/app/src/main/AndroidManifest.xml:163:13-55
+178            <intent-filter>
+178-->/Users/xx/patient/app/src/main/AndroidManifest.xml:164:13-170:29
+179                <data android:scheme="hbuilder" />
+179-->/Users/xx/patient/app/src/main/AndroidManifest.xml:165:17-50
+179-->/Users/xx/patient/app/src/main/AndroidManifest.xml:165:23-48
+180
+181                <action android:name="android.intent.action.VIEW" />
+181-->/Users/xx/patient/app/src/main/AndroidManifest.xml:166:17-68
+181-->/Users/xx/patient/app/src/main/AndroidManifest.xml:166:25-66
+182
+183                <category android:name="android.intent.category.DEFAULT" />
+183-->/Users/xx/patient/app/src/main/AndroidManifest.xml:168:17-75
+183-->/Users/xx/patient/app/src/main/AndroidManifest.xml:168:27-73
+184                <category android:name="android.intent.category.BROWSABLE" />
+184-->/Users/xx/patient/app/src/main/AndroidManifest.xml:169:17-77
+184-->/Users/xx/patient/app/src/main/AndroidManifest.xml:169:27-75
+185            </intent-filter>
+186            <intent-filter>
+186-->/Users/xx/patient/app/src/main/AndroidManifest.xml:171:13-175:29
+187                <data android:mimeType="image/*" />
+187-->/Users/xx/patient/app/src/main/AndroidManifest.xml:165:17-50
+187-->/Users/xx/patient/app/src/main/AndroidManifest.xml:172:23-49
+188
+189                <action android:name="android.intent.action.SEND" />
+189-->/Users/xx/patient/app/src/main/AndroidManifest.xml:173:17-68
+189-->/Users/xx/patient/app/src/main/AndroidManifest.xml:173:25-66
+190
+191                <category android:name="android.intent.category.DEFAULT" />
+191-->/Users/xx/patient/app/src/main/AndroidManifest.xml:168:17-75
+191-->/Users/xx/patient/app/src/main/AndroidManifest.xml:168:27-73
+192            </intent-filter>
+193            <intent-filter>
+193-->/Users/xx/patient/app/src/main/AndroidManifest.xml:176:13-179:29
+194                <action android:name="android.intent.action.MAIN" />
+194-->/Users/xx/patient/app/src/main/AndroidManifest.xml:177:17-68
+194-->/Users/xx/patient/app/src/main/AndroidManifest.xml:177:25-66
+195
+196                <category android:name="android.intent.category.LAUNCHER" />
+196-->/Users/xx/patient/app/src/main/AndroidManifest.xml:178:17-76
+196-->/Users/xx/patient/app/src/main/AndroidManifest.xml:178:27-74
+197            </intent-filter>
+198        </activity>
+199
+200        <meta-data
+200-->/Users/xx/patient/app/src/main/AndroidManifest.xml:184:9-185:35
+201            android:name="dcloud_uninview_background"
+201-->/Users/xx/patient/app/src/main/AndroidManifest.xml:184:20-61
+202            android:value="true" />
+202-->/Users/xx/patient/app/src/main/AndroidManifest.xml:185:13-33
+203
+204        <activity
+204-->/Users/xx/patient/app/src/main/AndroidManifest.xml:188:9-212:20
+205            android:name="io.dcloud.PandoraEntryActivity"
+205-->/Users/xx/patient/app/src/main/AndroidManifest.xml:189:13-58
+206            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|fontScale|keyboard"
+206-->/Users/xx/patient/app/src/main/AndroidManifest.xml:191:13-101
+207            android:hardwareAccelerated="true"
+207-->/Users/xx/patient/app/src/main/AndroidManifest.xml:192:13-47
+208            android:launchMode="singleTask"
+208-->/Users/xx/patient/app/src/main/AndroidManifest.xml:190:13-44
+209            android:permission="com.miui.securitycenter.permission.AppPermissionsEditor"
+209-->/Users/xx/patient/app/src/main/AndroidManifest.xml:193:13-89
+210            android:screenOrientation="user"
+210-->/Users/xx/patient/app/src/main/AndroidManifest.xml:194:13-45
+211            android:theme="@style/DCloudTheme"
+211-->/Users/xx/patient/app/src/main/AndroidManifest.xml:195:13-47
+212            android:windowSoftInputMode="adjustResize" >
+212-->/Users/xx/patient/app/src/main/AndroidManifest.xml:196:13-55
+213            <intent-filter>
+213-->/Users/xx/patient/app/src/main/AndroidManifest.xml:198:13-211:29
+214                <category android:name="android.intent.category.DEFAULT" />
+214-->/Users/xx/patient/app/src/main/AndroidManifest.xml:168:17-75
+214-->/Users/xx/patient/app/src/main/AndroidManifest.xml:168:27-73
+215                <category android:name="android.intent.category.BROWSABLE" />
+215-->/Users/xx/patient/app/src/main/AndroidManifest.xml:169:17-77
+215-->/Users/xx/patient/app/src/main/AndroidManifest.xml:169:27-75
+216
+217                <action android:name="android.intent.action.VIEW" />
+217-->/Users/xx/patient/app/src/main/AndroidManifest.xml:166:17-68
+217-->/Users/xx/patient/app/src/main/AndroidManifest.xml:166:25-66
+218
+219                <data android:scheme="h56131bcf" />
+219-->/Users/xx/patient/app/src/main/AndroidManifest.xml:165:17-50
+219-->/Users/xx/patient/app/src/main/AndroidManifest.xml:165:23-48
+220            </intent-filter>
+221        </activity>
+222
+223        <meta-data
+223-->/Users/xx/patient/app/src/main/AndroidManifest.xml:215:9-216:21
+224            android:name="WX_APPID"
+224-->/Users/xx/patient/app/src/main/AndroidManifest.xml:215:20-43
+225            android:value="wx9a225b6a3a60b921" >
+225-->/Users/xx/patient/app/src/main/AndroidManifest.xml:215:44-78
+226        </meta-data>
+227        <!-- <meta-data android:name="WX_SECRET" android:value="%微信开放平台申请应用的Secret%"> -->
+228        <!-- </meta-data> -->
+229        <activity
+229-->/Users/xx/patient/app/src/main/AndroidManifest.xml:219:9-229:20
+230            android:name="com.sureemed.consumer.wxapi.WXEntryActivity"
+230-->/Users/xx/patient/app/src/main/AndroidManifest.xml:220:13-50
+231            android:exported="true"
+231-->/Users/xx/patient/app/src/main/AndroidManifest.xml:222:13-36
+232            android:label="@string/app_name"
+232-->/Users/xx/patient/app/src/main/AndroidManifest.xml:221:13-45
+233            android:launchMode="singleTop" >
+233-->/Users/xx/patient/app/src/main/AndroidManifest.xml:223:13-43
+234            <intent-filter>
+234-->/Users/xx/patient/app/src/main/AndroidManifest.xml:224:13-228:29
+235                <action android:name="android.intent.action.VIEW" />
+235-->/Users/xx/patient/app/src/main/AndroidManifest.xml:166:17-68
+235-->/Users/xx/patient/app/src/main/AndroidManifest.xml:166:25-66
+236
+237                <category android:name="android.intent.category.DEFAULT" />
+237-->/Users/xx/patient/app/src/main/AndroidManifest.xml:168:17-75
+237-->/Users/xx/patient/app/src/main/AndroidManifest.xml:168:27-73
+238
+239                <data android:scheme="wx9a225b6a3a60b921" />
+239-->/Users/xx/patient/app/src/main/AndroidManifest.xml:165:17-50
+239-->/Users/xx/patient/app/src/main/AndroidManifest.xml:165:23-48
+240            </intent-filter>
+241        </activity>
+242
+243        <service
+243-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:160:9-162:40
+244            android:name="io.dcloud.common.adapter.io.MiniServerService"
+244-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:161:13-73
+245            android:exported="false" />
+245-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:162:13-37
+246
+247        <receiver android:name="io.dcloud.common.adapter.io.PushReceiver" >
+247-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:164:9-168:20
+247-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:164:19-74
+248            <intent-filter>
+248-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:165:13-167:29
+249                <action android:name="dcloud.push.broswer" />
+249-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:166:17-62
+249-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:166:25-59
+250            </intent-filter>
+251        </receiver>
+252
+253        <activity
+253-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:170:9-173:40
+254            android:name="io.dcloud.imagepick.CustomGalleryActivity"
+254-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:171:13-69
+255            android:exported="false"
+255-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:172:13-37
+256            android:noHistory="true" />
+256-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:173:13-37
+257        <activity
+257-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:174:9-177:58
+258            android:name="io.dcloud.feature.nativeObj.photoview.PhotoActivity"
+258-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:175:13-79
+259            android:noHistory="false"
+259-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:176:13-38
+260            android:theme="@style/DeviceDefault.Light" />
+260-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:177:13-55
+261        <activity
+261-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:178:9-199:20
+262            android:name="io.dcloud.appstream.StreamAppMainActivity"
+262-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:179:13-69
+263            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc"
+263-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:180:13-82
+264            android:exported="true"
+264-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:181:13-36
+265            android:launchMode="singleTask"
+265-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:182:13-44
+266            android:screenOrientation="portrait"
+266-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:183:13-49
+267            android:taskAffinity=":list"
+267-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:184:13-41
+268            android:theme="@android:style/Theme.Wallpaper.NoTitleBar"
+268-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:185:13-70
+269            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+269-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:186:13-73
+270            <intent-filter>
+270-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:187:13-189:29
+271                <action android:name="android.intent.action.MAIN" />
+271-->/Users/xx/patient/app/src/main/AndroidManifest.xml:177:17-68
+271-->/Users/xx/patient/app/src/main/AndroidManifest.xml:177:25-66
+272            </intent-filter>
+273            <intent-filter>
+273-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:190:13-198:29
+274                <data android:scheme="streamapp" />
+274-->/Users/xx/patient/app/src/main/AndroidManifest.xml:165:17-50
+274-->/Users/xx/patient/app/src/main/AndroidManifest.xml:165:23-48
+275                <data android:scheme="streamappmain" />
+275-->/Users/xx/patient/app/src/main/AndroidManifest.xml:165:17-50
+275-->/Users/xx/patient/app/src/main/AndroidManifest.xml:165:23-48
+276
+277                <action android:name="android.intent.action.VIEW" />
+277-->/Users/xx/patient/app/src/main/AndroidManifest.xml:166:17-68
+277-->/Users/xx/patient/app/src/main/AndroidManifest.xml:166:25-66
+278
+279                <category android:name="android.intent.category.DEFAULT" />
+279-->/Users/xx/patient/app/src/main/AndroidManifest.xml:168:17-75
+279-->/Users/xx/patient/app/src/main/AndroidManifest.xml:168:27-73
+280                <category android:name="android.intent.category.BROWSABLE" />
+280-->/Users/xx/patient/app/src/main/AndroidManifest.xml:169:17-77
+280-->/Users/xx/patient/app/src/main/AndroidManifest.xml:169:27-75
+281            </intent-filter>
+282        </activity>
+283        <activity
+283-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:200:9-210:58
+284            android:name="io.dcloud.WebAppActivity"
+284-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:201:13-52
+285            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|fontScale"
+285-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:202:13-92
+286            android:hardwareAccelerated="true"
+286-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:203:13-47
+287            android:icon="@drawable/dcloud_recent"
+287-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:204:13-51
+288            android:label="@string/stream_my"
+288-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:205:13-46
+289            android:launchMode="singleTask"
+289-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:206:13-44
+290            android:screenOrientation="portrait"
+290-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:207:13-49
+291            android:taskAffinity=":stream"
+291-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:208:13-43
+292            android:theme="@style/DCloudTheme"
+292-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:209:13-47
+293            android:windowSoftInputMode="adjustResize" />
+293-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:210:13-55
+294
+295        <service android:name="io.dcloud.streamdownload.DownloadService" >
+295-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:212:9-216:19
+295-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:212:18-73
+296            <intent-filter>
+296-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:213:13-215:29
+297                <action android:name="com.qihoo.life.plugin.streamapp.ACTION_PUSH_TO_PLUGIN" />
+297-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:214:17-96
+297-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:214:25-93
+298            </intent-filter>
+299        </service>
+300        <service android:name="io.dcloud.multiprocess.service.MultiProcessService" />
+300-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:217:9-86
+300-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:217:18-83
+301
+302        <activity
+302-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:219:9-230:58
+303            android:name="io.dcloud.multiprocess.activity.WebAppActivity1"
+303-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:220:13-75
+304            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc"
+304-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:221:13-82
+305            android:hardwareAccelerated="true"
+305-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:222:13-47
+306            android:icon="@drawable/dcloud_recent"
+306-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:223:13-51
+307            android:label="@string/stream_my"
+307-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:224:13-46
+308            android:launchMode="singleTask"
+308-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:225:13-44
+309            android:process="io.dcloud.multiprocess.webapp1"
+309-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:226:13-61
+310            android:screenOrientation="portrait"
+310-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:227:13-49
+311            android:taskAffinity=":webapp1"
+311-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:228:13-44
+312            android:theme="@style/DCloudTheme"
+312-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:229:13-47
+313            android:windowSoftInputMode="adjustResize" />
+313-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:230:13-55
+314        <activity
+314-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:231:9-237:20
+315            android:name="io.dcloud.appstream.OpenStreamAppTransferActivity"
+315-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:232:13-77
+316            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc"
+316-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:233:13-82
+317            android:screenOrientation="portrait"
+317-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:234:13-49
+318            android:theme="@style/OpenStreamAppTransferActivityTheme"
+318-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:235:13-70
+319            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
+319-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:236:13-73
+320        </activity>
+321
+322        <meta-data
+322-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:239:9-241:33
+323            android:name="MultiProcessCount"
+323-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:240:13-45
+324            android:value="1" />
+324-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:241:13-30
+325
+326        <activity
+326-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:243:9-249:75
+327            android:name="io.dcloud.ProcessMediator"
+327-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:244:13-53
+328            android:excludeFromRecents="true"
+328-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:245:13-46
+329            android:exported="true"
+329-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:246:13-36
+330            android:label="@string/app_name"
+330-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:247:13-45
+331            android:launchMode="singleTop"
+331-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:248:13-43
+332            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+332-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:249:13-72
+333        <activity
+333-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:250:9-255:20
+334            android:name="io.dcloud.WebviewActivity"
+334-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:251:13-53
+335            android:screenOrientation="portrait"
+335-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:252:13-49
+336            android:theme="@style/ThemeNoTitleBar"
+336-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:253:13-51
+337            android:windowSoftInputMode="adjustPan" >
+337-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:254:13-52
+338        </activity>
+339
+340        <receiver android:name="io.dcloud.common.adapter.io.DownloadReceiver" >
+340-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:257:9-266:20
+340-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:257:19-78
+341            <intent-filter>
+341-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:258:13-260:29
+342                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+342-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:259:17-82
+342-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:259:25-79
+343            </intent-filter>
+344            <intent-filter>
+344-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:261:13-265:29
+345                <action android:name="android.intent.action.PACKAGE_ADDED" />
+345-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:262:17-78
+345-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:262:25-75
+346
+347                <data android:scheme="package" /> <!-- HERE! -->
+347-->/Users/xx/patient/app/src/main/AndroidManifest.xml:165:17-50
+347-->/Users/xx/patient/app/src/main/AndroidManifest.xml:165:23-48
+348            </intent-filter>
+349        </receiver>
+350        <!--
+351        <provider
+352            android:name="io.dcloud.common.util.DCloud_FileProvider"
+353            android:authorities="${apk.applicationId}.dc.fileprovider"
+354            android:exported="false"
+355            android:grantUriPermissions="true">
+356            <meta-data
+357                android:name="android.support.FILE_PROVIDER_PATHS"
+358                android:resource="@xml/dcloud_file_provider" />
+359        </provider>
+360        -->
+361        <!--
+362            <meta-data
+363            android:name="DCLOUD_STREAMAPP_CHANNEL"
+364            android:value="io.dcloud.%APPID%|%APPID%|" />
+365        -->
+366        <meta-data
+366-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:284:9-286:35
+367            android:name="android.max_aspect"
+367-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:285:13-46
+368            android:value="2.4" />
+368-->[lib.5plus.base-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/0ee554522aa40c36036205205081276e/jetified-lib.5plus.base-release/AndroidManifest.xml:286:13-32
+369
+370        <uses-library
+370-->[alipaySdk-15.6.5-20190718211159-noUtdid.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/2249e74fd3f7a1b2ecbe711d56b36468/alipaySdk-15.6.5-20190718211159-noUtdid/AndroidManifest.xml:23:9-25:40
+371            android:name="org.apache.http.legacy"
+371-->[alipaySdk-15.6.5-20190718211159-noUtdid.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/2249e74fd3f7a1b2ecbe711d56b36468/alipaySdk-15.6.5-20190718211159-noUtdid/AndroidManifest.xml:24:13-50
+372            android:required="false" />
+372-->[alipaySdk-15.6.5-20190718211159-noUtdid.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/2249e74fd3f7a1b2ecbe711d56b36468/alipaySdk-15.6.5-20190718211159-noUtdid/AndroidManifest.xml:25:13-37
+373
+374        <activity
+374-->[alipaySdk-15.6.5-20190718211159-noUtdid.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/2249e74fd3f7a1b2ecbe711d56b36468/alipaySdk-15.6.5-20190718211159-noUtdid/AndroidManifest.xml:27:9-32:20
+375            android:name="com.alipay.sdk.app.H5PayActivity"
+375-->[alipaySdk-15.6.5-20190718211159-noUtdid.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/2249e74fd3f7a1b2ecbe711d56b36468/alipaySdk-15.6.5-20190718211159-noUtdid/AndroidManifest.xml:28:13-60
+376            android:configChanges="orientation|keyboardHidden|navigation"
+376-->[alipaySdk-15.6.5-20190718211159-noUtdid.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/2249e74fd3f7a1b2ecbe711d56b36468/alipaySdk-15.6.5-20190718211159-noUtdid/AndroidManifest.xml:29:13-74
+377            android:exported="false"
+377-->[alipaySdk-15.6.5-20190718211159-noUtdid.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/2249e74fd3f7a1b2ecbe711d56b36468/alipaySdk-15.6.5-20190718211159-noUtdid/AndroidManifest.xml:30:13-37
+378            android:screenOrientation="behind" >
+378-->[alipaySdk-15.6.5-20190718211159-noUtdid.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/2249e74fd3f7a1b2ecbe711d56b36468/alipaySdk-15.6.5-20190718211159-noUtdid/AndroidManifest.xml:31:13-47
+379        </activity>
+380        <activity
+380-->[alipaySdk-15.6.5-20190718211159-noUtdid.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/2249e74fd3f7a1b2ecbe711d56b36468/alipaySdk-15.6.5-20190718211159-noUtdid/AndroidManifest.xml:33:9-38:20
+381            android:name="com.alipay.sdk.app.H5AuthActivity"
+381-->[alipaySdk-15.6.5-20190718211159-noUtdid.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/2249e74fd3f7a1b2ecbe711d56b36468/alipaySdk-15.6.5-20190718211159-noUtdid/AndroidManifest.xml:34:13-61
+382            android:configChanges="orientation|keyboardHidden|navigation"
+382-->[alipaySdk-15.6.5-20190718211159-noUtdid.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/2249e74fd3f7a1b2ecbe711d56b36468/alipaySdk-15.6.5-20190718211159-noUtdid/AndroidManifest.xml:35:13-74
+383            android:exported="false"
+383-->[alipaySdk-15.6.5-20190718211159-noUtdid.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/2249e74fd3f7a1b2ecbe711d56b36468/alipaySdk-15.6.5-20190718211159-noUtdid/AndroidManifest.xml:36:13-37
+384            android:screenOrientation="behind" >
+384-->[alipaySdk-15.6.5-20190718211159-noUtdid.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/2249e74fd3f7a1b2ecbe711d56b36468/alipaySdk-15.6.5-20190718211159-noUtdid/AndroidManifest.xml:37:13-47
+385        </activity>
+386        <activity
+386-->[alipaySdk-15.6.5-20190718211159-noUtdid.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/2249e74fd3f7a1b2ecbe711d56b36468/alipaySdk-15.6.5-20190718211159-noUtdid/AndroidManifest.xml:39:9-48:20
+387            android:name="com.alipay.sdk.app.PayResultActivity"
+387-->[alipaySdk-15.6.5-20190718211159-noUtdid.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/2249e74fd3f7a1b2ecbe711d56b36468/alipaySdk-15.6.5-20190718211159-noUtdid/AndroidManifest.xml:40:13-64
+388            android:configChanges="orientation|keyboardHidden|navigation"
+388-->[alipaySdk-15.6.5-20190718211159-noUtdid.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/2249e74fd3f7a1b2ecbe711d56b36468/alipaySdk-15.6.5-20190718211159-noUtdid/AndroidManifest.xml:41:13-74
+389            android:exported="true"
+389-->[alipaySdk-15.6.5-20190718211159-noUtdid.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/2249e74fd3f7a1b2ecbe711d56b36468/alipaySdk-15.6.5-20190718211159-noUtdid/AndroidManifest.xml:42:13-36
+390            android:launchMode="singleInstance"
+390-->[alipaySdk-15.6.5-20190718211159-noUtdid.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/2249e74fd3f7a1b2ecbe711d56b36468/alipaySdk-15.6.5-20190718211159-noUtdid/AndroidManifest.xml:43:13-48
+391            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+391-->[alipaySdk-15.6.5-20190718211159-noUtdid.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/2249e74fd3f7a1b2ecbe711d56b36468/alipaySdk-15.6.5-20190718211159-noUtdid/AndroidManifest.xml:44:13-72
+392            <intent-filter>
+392-->[alipaySdk-15.6.5-20190718211159-noUtdid.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/2249e74fd3f7a1b2ecbe711d56b36468/alipaySdk-15.6.5-20190718211159-noUtdid/AndroidManifest.xml:45:13-47:29
+393                <category android:name="android.intent.category.DEFAULT" />
+393-->/Users/xx/patient/app/src/main/AndroidManifest.xml:168:17-75
+393-->/Users/xx/patient/app/src/main/AndroidManifest.xml:168:27-73
+394            </intent-filter>
+395        </activity>
+396        <activity
+396-->[alipaySdk-15.6.5-20190718211159-noUtdid.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/2249e74fd3f7a1b2ecbe711d56b36468/alipaySdk-15.6.5-20190718211159-noUtdid/AndroidManifest.xml:49:9-54:20
+397            android:name="com.alipay.sdk.app.AlipayResultActivity"
+397-->[alipaySdk-15.6.5-20190718211159-noUtdid.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/2249e74fd3f7a1b2ecbe711d56b36468/alipaySdk-15.6.5-20190718211159-noUtdid/AndroidManifest.xml:50:13-67
+398            android:exported="true"
+398-->[alipaySdk-15.6.5-20190718211159-noUtdid.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/2249e74fd3f7a1b2ecbe711d56b36468/alipaySdk-15.6.5-20190718211159-noUtdid/AndroidManifest.xml:51:13-36
+399            android:launchMode="singleTask"
+399-->[alipaySdk-15.6.5-20190718211159-noUtdid.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/2249e74fd3f7a1b2ecbe711d56b36468/alipaySdk-15.6.5-20190718211159-noUtdid/AndroidManifest.xml:52:13-44
+400            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+400-->[alipaySdk-15.6.5-20190718211159-noUtdid.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/2249e74fd3f7a1b2ecbe711d56b36468/alipaySdk-15.6.5-20190718211159-noUtdid/AndroidManifest.xml:53:13-72
+401        </activity>
+402
+403        <receiver
+403-->[uniapp-v8-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/2b1174dc60a3e960afb0a85741888ce4/jetified-uniapp-v8-release/AndroidManifest.xml:30:9-34:20
+404            android:name="com.taobao.weex.WXGlobalEventReceiver"
+404-->[uniapp-v8-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/2b1174dc60a3e960afb0a85741888ce4/jetified-uniapp-v8-release/AndroidManifest.xml:31:13-65
+405            android:enabled="true"
+405-->[uniapp-v8-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/2b1174dc60a3e960afb0a85741888ce4/jetified-uniapp-v8-release/AndroidManifest.xml:32:13-35
+406            android:exported="false" >
+406-->[uniapp-v8-release.aar] /Users/xx/.gradle/caches/transforms-2/files-2.1/2b1174dc60a3e960afb0a85741888ce4/jetified-uniapp-v8-release/AndroidManifest.xml:33:13-37
+407        </receiver>
+408
+409        <activity android:name="com.baobaoloufu.android.yunpay.ConsultRecordActivity" />
+409-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:9-89
+409-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:19-86
+410        <activity android:name="com.baobaoloufu.android.yunpay.SetFeeActivity" />
+410-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:9-82
+410-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:19-79
+411        <activity
+411-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:9-41:20
+412            android:name="com.baobaoloufu.android.yunpay.SettingFeeActivity"
+412-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:13-77
+413            android:screenOrientation="portrait"
+413-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-49
+414            android:windowSoftInputMode="adjustResize" >
+414-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-55
+415            <intent-filter>
+415-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-40:29
+416                <action android:name="com.rong.setting" />
+416-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:17-59
+416-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:25-56
+417
+418                <category android:name="android.intent.category.DEFAULT" />
+418-->/Users/xx/patient/app/src/main/AndroidManifest.xml:168:17-75
+418-->/Users/xx/patient/app/src/main/AndroidManifest.xml:168:27-73
+419            </intent-filter>
+420        </activity>
+421        <activity
+421-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:9-57:20
+422            android:name="com.baobaoloufu.android.yunpay.ConversationListActivity"
+422-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:13-83
+423            android:exported="true"
+423-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:13-36
+424            android:screenOrientation="portrait"
+424-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:45:13-49
+425            android:windowSoftInputMode="stateHidden|adjustResize" >
+425-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:13-67
+426            <intent-filter>
+426-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:47:13-56:29
+427                <action android:name="android.intent.action.VIEW" />
+427-->/Users/xx/patient/app/src/main/AndroidManifest.xml:166:17-68
+427-->/Users/xx/patient/app/src/main/AndroidManifest.xml:166:25-66
+428
+429                <category android:name="android.intent.category.DEFAULT" />
+429-->/Users/xx/patient/app/src/main/AndroidManifest.xml:168:17-75
+429-->/Users/xx/patient/app/src/main/AndroidManifest.xml:168:27-73
+430
+431                <data
+431-->/Users/xx/patient/app/src/main/AndroidManifest.xml:165:17-50
+432                    android:host="com.baobaoloufu.android"
+433                    android:pathPrefix="/conversationlist"
+434                    android:scheme="rong" />
+434-->/Users/xx/patient/app/src/main/AndroidManifest.xml:165:23-48
+435            </intent-filter>
+436        </activity>
+437        <activity
+437-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:58:9-73:20
+438            android:name="com.baobaoloufu.android.yunpay.ConversationActivity"
+438-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:59:13-79
+439            android:exported="true"
+439-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:60:13-36
+440            android:screenOrientation="portrait"
+440-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:61:13-49
+441            android:windowSoftInputMode="stateHidden|adjustResize" >
+441-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:62:13-67
+442            <intent-filter>
+442-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:63:13-72:29
+443                <action android:name="android.intent.action.VIEW" />
+443-->/Users/xx/patient/app/src/main/AndroidManifest.xml:166:17-68
+443-->/Users/xx/patient/app/src/main/AndroidManifest.xml:166:25-66
+444
+445                <category android:name="android.intent.category.DEFAULT" />
+445-->/Users/xx/patient/app/src/main/AndroidManifest.xml:168:17-75
+445-->/Users/xx/patient/app/src/main/AndroidManifest.xml:168:27-73
+446
+447                <data
+447-->/Users/xx/patient/app/src/main/AndroidManifest.xml:165:17-50
+448                    android:host="com.sureemed.consumer"
+449                    android:pathPrefix="/conversation/"
+450                    android:scheme="rong" />
+450-->/Users/xx/patient/app/src/main/AndroidManifest.xml:165:23-48
+451            </intent-filter>
+452        </activity> <!-- 会话列表 -->
+453        <provider
+453-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:74:9-82:20
+454            android:name="androidx.core.content.FileProvider"
+454-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:75:13-62
+455            android:authorities="com.sureemed.consumer.FileProvider"
+455-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:76:13-69
+456            android:exported="false"
+456-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:77:13-37
+457            android:grantUriPermissions="true" >
+457-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:78:13-47
+458            <meta-data
+458-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:79:13-81:56
+459                android:name="android.support.FILE_PROVIDER_PATHS"
+459-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:80:17-67
+460                android:resource="@xml/rc_file_path" />
+460-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:81:17-53
+461        </provider> <!-- 会话界面  android:host="com.baobaoloufu.android" -->
+462        <receiver
+462-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:83:9-91:20
+463            android:name="com.baobaoloufu.android.yunpay.SealNotificationReceiver"
+463-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:84:13-83
+464            android:exported="true" >
+464-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:85:13-36
+465            <intent-filter>
+465-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:86:13-90:29
+466                <action android:name="io.rong.push.intent.MESSAGE_ARRIVED" />
+466-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:87:17-78
+466-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:87:25-75
+467                <action android:name="io.rong.push.intent.MESSAGE_CLICKED" />
+467-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:88:17-78
+467-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:88:25-75
+468                <action android:name="io.rong.push.intent.THIRD_PARTY_PUSH_STATE" />
+468-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:89:17-85
+468-->[:rongim] /Users/xx/patient/rongim/build/intermediates/library_manifest/debug/AndroidManifest.xml:89:25-82
+469            </intent-filter>
+470        </receiver>
+471
+472        <activity
+472-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:9-41:52
+473            android:name="io.rong.imkit.plugin.location.AMapLocationActivity"
+473-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-78
+474            android:screenOrientation="portrait" />
+474-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-49
+475        <activity
+475-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:9-44:52
+476            android:name="io.rong.imkit.plugin.location.AMapLocationActivity2D"
+476-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:13-80
+477            android:screenOrientation="portrait" />
+477-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:13-49
+478        <activity android:name="io.rong.imkit.plugin.location.AMapPreviewActivity" />
+478-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:45:9-86
+478-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:45:19-83
+479        <activity android:name="io.rong.imkit.plugin.location.AMapPreviewActivity2D" />
+479-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:9-88
+479-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:19-85
+480        <activity android:name="io.rong.imkit.plugin.location.AMapRealTimeActivity" />
+480-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:47:9-87
+480-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:47:19-84
+481        <activity android:name="io.rong.imkit.plugin.location.AMapRealTimeActivity2D" />
+481-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:48:9-89
+481-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:48:19-86
+482        <activity
+482-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:49:9-52:71
+483            android:name="io.rong.imkit.plugin.location.SearchLocationActivity"
+483-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:50:13-80
+484            android:screenOrientation="portrait"
+484-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:51:13-49
+485            android:windowSoftInputMode="stateVisible|adjustResize" />
+485-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:52:13-68
+486        <activity
+486-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:53:9-56:52
+487            android:name="io.rong.imkit.plugin.image.PictureSelectorActivity"
+487-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:54:13-78
+488            android:configChanges="keyboardHidden|orientation|screenSize"
+488-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:55:13-74
+489            android:screenOrientation="portrait" />
+489-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:56:13-49
+490        <activity
+490-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:57:9-59:52
+491            android:name="io.rong.imkit.plugin.image.PicturePreviewActivity"
+491-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:58:13-77
+492            android:screenOrientation="portrait" /> <!-- 开发者可以修改 RongBaseActivity 的 rc_base_activity_layout 布局文件调整 actionbar -->
+492-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:59:13-49
+493        <activity
+493-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:62:9-71:20
+494            android:name="io.rong.imkit.tools.RongWebviewActivity"
+494-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:63:13-67
+495            android:exported="false"
+495-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:64:13-37
+496            android:screenOrientation="portrait" >
+496-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:65:13-49
+497            <intent-filter>
+497-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:66:13-70:29
+498                <action android:name="io.rong.imkit.intent.action.webview" />
+498-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:67:17-78
+498-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:67:25-75
+499
+500                <category android:name="android.intent.category.DEFAULT" />
+500-->/Users/xx/patient/app/src/main/AndroidManifest.xml:168:17-75
+500-->/Users/xx/patient/app/src/main/AndroidManifest.xml:168:27-73
+501            </intent-filter>
+502        </activity>
+503        <activity
+503-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:72:9-81:20
+504            android:name="io.rong.imkit.tools.CombineWebViewActivity"
+504-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:73:13-70
+505            android:exported="false"
+505-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:74:13-37
+506            android:screenOrientation="portrait" >
+506-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:75:13-49
+507            <intent-filter>
+507-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:76:13-80:29
+508                <action android:name="io.rong.imkit.intent.action.combinewebview" />
+508-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:77:17-85
+508-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:77:25-82
+509
+510                <category android:name="android.intent.category.DEFAULT" />
+510-->/Users/xx/patient/app/src/main/AndroidManifest.xml:168:17-75
+510-->/Users/xx/patient/app/src/main/AndroidManifest.xml:168:27-73
+511            </intent-filter>
+512        </activity>
+513        <activity
+513-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:82:9-85:52
+514            android:name="io.rong.imkit.widget.provider.TakingPicturesActivity"
+514-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:83:13-80
+515            android:configChanges="orientation|keyboardHidden"
+515-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:84:13-63
+516            android:screenOrientation="portrait" />
+516-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:85:13-49
+517        <activity
+517-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:86:9-95:20
+518            android:name="io.rong.imkit.activity.PicturePagerActivity"
+518-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:87:13-71
+519            android:exported="false"
+519-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:88:13-37
+520            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+520-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:89:13-71
+521            <intent-filter>
+521-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:90:13-94:29
+522                <action android:name="io.rong.imkit.intent.action.picturepagerview" />
+522-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:91:17-87
+522-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:91:25-84
+523
+524                <category android:name="android.intent.category.DEFAULT" />
+524-->/Users/xx/patient/app/src/main/AndroidManifest.xml:168:17-75
+524-->/Users/xx/patient/app/src/main/AndroidManifest.xml:168:27-73
+525            </intent-filter>
+526        </activity>
+527        <activity
+527-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:96:9-99:67
+528            android:name="io.rong.imkit.mention.MemberMentionedActivity"
+528-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:97:13-73
+529            android:configChanges="orientation|keyboardHidden"
+529-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:98:13-63
+530            android:windowSoftInputMode="adjustPan|stateHidden" />
+530-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:99:13-64
+531        <activity android:name="io.rong.imkit.activity.FileManagerActivity" />
+531-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:100:9-79
+531-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:100:19-76
+532        <activity android:name="io.rong.imkit.activity.FileListActivity" />
+532-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:101:9-76
+532-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:101:19-73
+533        <activity
+533-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:102:9-111:20
+534            android:name="io.rong.imkit.activity.FilePreviewActivity"
+534-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:103:13-70
+535            android:exported="false"
+535-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:104:13-37
+536            android:screenOrientation="portrait" >
+536-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:105:13-49
+537            <intent-filter>
+537-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:106:13-110:29
+538                <action android:name="io.rong.imkit.intent.action.openfile" />
+538-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:107:17-79
+538-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:107:25-76
+539
+540                <category android:name="android.intent.category.DEFAULT" />
+540-->/Users/xx/patient/app/src/main/AndroidManifest.xml:168:17-75
+540-->/Users/xx/patient/app/src/main/AndroidManifest.xml:168:27-73
+541            </intent-filter>
+542        </activity>
+543        <activity
+543-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:112:9-121:20
+544            android:name="io.rong.imkit.activity.WebFilePreviewActivity"
+544-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:113:13-73
+545            android:exported="false"
+545-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:114:13-37
+546            android:screenOrientation="portrait" >
+546-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:115:13-49
+547            <intent-filter>
+547-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:116:13-120:29
+548                <action android:name="io.rong.imkit.intent.action.openwebfile" />
+548-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:117:17-82
+548-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:117:25-79
+549
+550                <category android:name="android.intent.category.DEFAULT" />
+550-->/Users/xx/patient/app/src/main/AndroidManifest.xml:168:17-75
+550-->/Users/xx/patient/app/src/main/AndroidManifest.xml:168:27-73
+551            </intent-filter>
+552        </activity>
+553        <activity
+553-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:122:9-125:52
+554            android:name="io.rong.imkit.activity.CSLeaveMessageActivity"
+554-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:123:13-73
+555            android:configChanges="orientation|keyboardHidden"
+555-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:124:13-63
+556            android:screenOrientation="portrait" />
+556-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:125:13-49
+557        <activity
+557-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:126:9-135:20
+558            android:name="io.rong.imkit.activity.GIFPreviewActivity"
+558-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:127:13-69
+559            android:exported="false"
+559-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:128:13-37
+560            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+560-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:129:13-71
+561            <intent-filter>
+561-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:130:13-134:29
+562                <action android:name="io.rong.imkit.intent.action.gifrview" />
+562-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:131:17-79
+562-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:131:25-76
+563
+564                <category android:name="android.intent.category.DEFAULT" />
+564-->/Users/xx/patient/app/src/main/AndroidManifest.xml:168:17-75
+564-->/Users/xx/patient/app/src/main/AndroidManifest.xml:168:27-73
+565            </intent-filter>
+566        </activity>
+567        <activity android:name="io.rong.imkit.activity.SelectConversationActivity" /> <!-- imlib config begin -->
+567-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:136:9-86
+567-->[:IMKit] /Users/xx/patient/IMKit/build/intermediates/library_manifest/debug/AndroidManifest.xml:136:19-83
+568        <meta-data
+568-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-27:43
+569            android:name="RONG_CLOUD_APP_KEY"
+569-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-46
+570            android:value="此处添加APP_KEY" />
+570-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-40
+571
+572        <service
+572-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:9-32:38
+573            android:name="io.rong.imlib.ipc.RongService"
+573-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-57
+574            android:exported="true"
+574-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-36
+575            android:process=":ipc" />
+575-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:13-35
+576
+577        <receiver
+577-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:9-36:39
+578            android:name="io.rong.imlib.ConnectChangeReceiver"
+578-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-63
+579            android:exported="true" />
+579-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-36
+580        <receiver
+580-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:9-39:38
+581            android:name="io.rong.imlib.HeartbeatReceiver"
+581-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-59
+582            android:process=":ipc" /> <!-- imlib config end -->
+582-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-35
+583        <!-- 必选： SDK 核心功能 -->
+584        <service
+584-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:9-48:46
+585            android:name="io.rong.push.rongpush.PushService"
+585-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:45:13-61
+586            android:exported="true"
+586-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:13-36
+587            android:permission="android.permission.BIND_JOB_SERVICE"
+587-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:47:13-69
+588            android:process="io.rong.push" /> <!-- push 相关事件接收器 -->
+588-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:48:13-43
+589        <receiver
+589-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:51:9-66:20
+590            android:name="io.rong.push.rongpush.PushReceiver"
+590-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:52:13-62
+591            android:process="io.rong.push" > <!-- 此处进程可以改名，名称需要和PushService所在进程统一 -->
+591-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:53:13-43
+592            <!-- 心跳事件和网络切换事件监听,必须 -->
+593            <intent-filter>
+593-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:55:13-58:29
+594                <action android:name="io.rong.push.intent.action.HEART_BEAT" />
+594-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:56:17-80
+594-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:56:25-77
+595                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+595-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:57:17-79
+595-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:57:25-76
+596            </intent-filter>
+597
+598            <!-- 部分用户事件监听, 用来提高推送拉活率; 可移除 -->
+599            <intent-filter>
+599-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:61:13-65:29
+600                <action android:name="android.intent.action.USER_PRESENT" />
+600-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:62:17-77
+600-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:62:25-74
+601                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+601-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:63:17-87
+601-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:63:25-84
+602                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+602-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:64:17-90
+602-->[:IMLib] /Users/xx/patient/IMLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:64:25-87
+603            </intent-filter>
+604        </receiver>
+605    </application>
+606
+607</manifest>

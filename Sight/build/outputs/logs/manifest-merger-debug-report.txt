@@ -1,0 +1,77 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:3:5-28
+		INJECTED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml
+		INJECTED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml
+		ADDED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml
+		ADDED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:5:5-25:19
+activity#io.rong.sight.player.SightPlayerActivity
+ADDED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:6:9-18:20
+	android:screenOrientation
+		ADDED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:9:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:8:13-47
+	android:name
+		ADDED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:7:13-68
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:host:${applicationId}+data:pathPrefix:/sight/player+data:scheme:rong
+ADDED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:10:13-17:29
+action#android.intent.action.VIEW
+ADDED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:11:17-69
+	android:name
+		ADDED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:11:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:12:17-76
+	android:name
+		ADDED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:12:27-73
+data
+ADDED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:13:17-16:45
+	android:host
+		ADDED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:14:21-52
+	android:scheme
+		ADDED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:16:21-42
+	android:pathPrefix
+		ADDED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:15:21-55
+activity#io.rong.sight.player.SightListActivity
+ADDED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:19:9-21:52
+	android:screenOrientation
+		ADDED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:21:13-49
+	android:name
+		ADDED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:20:13-66
+activity#io.rong.sight.record.SightRecordActivity
+ADDED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:22:9-24:52
+	android:screenOrientation
+		ADDED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:24:13-49
+	android:name
+		ADDED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml:23:13-68
+uses-sdk
+INJECTED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml
+INJECTED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml
+INJECTED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml
+INJECTED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml
+		ADDED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml
+		INJECTED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml
+		ADDED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml
+		INJECTED from /Users/xx/Desktop/doctor/Sight/src/main/AndroidManifest.xml

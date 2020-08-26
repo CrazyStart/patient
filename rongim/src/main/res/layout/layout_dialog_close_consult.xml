@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:background="@drawable/shape_close_consult_bg"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_chat_alert"/>
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="温馨提醒"
+            android:textSize="18sp"
+            android:textColor="#222222"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请给予患者诊疗建议之后，再结束问诊哦～"/>
+
+
+
+
+        <TextView
+            android:id="@+id/confirm_tv"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/shape_send_consult_btn"
+            android:textColor="#ffffff"
+            android:text="继续沟通"/>
+
+        <TextView
+            android:id="@+id/cancel_tv"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:textColor="#828282"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/shape_end_consult"
+            android:text="已给出建议，结束问诊"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

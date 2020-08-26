@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8f8"
+    tools:context=".SetFeeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_set_fee_bg" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/layout_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="20dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_back_black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#212121"
+                    android:textSize="16sp"
+                    android:layout_marginStart="4dp"
+                    android:text="设置咨询费" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="27dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/iv_avatar"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="4dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="患者：哈小君"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:textColor="#212121"
+                        android:textStyle="bold"
+                        android:text="为Ta设置问诊服务费："/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/shape_set_fee">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="94dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="top"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_online"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="37dp"
+                                android:layout_marginStart="20dp"
+                                android:textColor="#6464CD"
+                                android:textSize="19sp"
+                                android:textStyle="bold"
+                                android:text="线上门诊价格"/>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="bottom"
+                                android:layout_gravity="end"
+                                android:layout_marginEnd="31dp"
+                                android:layout_marginTop="20dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="18sp"
+                                    android:textColor="#C2AA81"
+                                    android:text="¥"/>
+
+                                <TextView
+                                    android:id="@+id/tv_price_1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="24sp"
+                                    android:textStyle="bold"
+                                    android:layout_gravity="bottom"
+                                    android:textColor="#C2AA81"
+                                    android:text="25"/>
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/tv_change_price_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#C2AA81"
+                                android:textSize="12sp"
+                                android:layout_gravity="end"
+                                android:layout_marginEnd="24dp"
+                                android:layout_marginTop="60dp"
+                                android:paddingStart="12dp"
+                                android:paddingEnd="12dp"
+                                android:paddingTop="4dp"
+                                android:paddingBottom="4dp"
+                                android:background="@drawable/shape_set_fee_btn"
+                                android:text="修改"/>
+
+                        </FrameLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="69dp"
+                            android:background="@drawable/shape_setfee_content">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="14dp"
+                                android:text="1. 线上门诊为一次问诊过程，问诊最长24小时；\n2. 问诊结束前请您针对患者病情给出问诊结果。"/>
+
+
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/shape_set_fee">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="94dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/ic_ask"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="37dp"
+                            android:layout_marginStart="20dp"
+                            android:textColor="#4A90E2"
+                            android:textSize="19sp"
+                            android:textStyle="bold"
+                            android:text="追问价格"/>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="bottom"
+                            android:layout_gravity="end"
+                            android:layout_marginEnd="31dp"
+                            android:layout_marginTop="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="18sp"
+                                android:textColor="#C2AA81"
+                                android:text="¥"/>
+
+                            <TextView
+                                android:id="@+id/tv_price_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="24sp"
+                                android:textStyle="bold"
+                                android:layout_gravity="bottom"
+                                android:textColor="#C2AA81"
+                                android:text="25"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#848C9C"
+                                android:textSize="15sp"
+                                android:text="/3条"/>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tv_change_price_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#C2AA81"
+                            android:textSize="12sp"
+                            android:layout_gravity="end"
+                            android:layout_marginEnd="24dp"
+                            android:layout_marginTop="60dp"
+                            android:paddingStart="12dp"
+                            android:paddingEnd="12dp"
+                            android:paddingTop="4dp"
+                            android:paddingBottom="4dp"
+                            android:background="@drawable/shape_set_fee_btn"
+                            android:text="修改"/>
+
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="69dp"
+                        android:background="@drawable/shape_setfee_content">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="14dp"
+                            android:text="追问用于解决患者的简单问题，患者购买后能获得您的3条回复信息。"/>
+
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/shape_set_fee">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="94dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/ic_replay"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="37dp"
+                            android:layout_marginStart="20dp"
+                            android:textColor="#1EC8A5"
+                            android:textSize="19sp"
+                            android:textStyle="bold"
+                            android:text="一问一答价格"/>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="bottom"
+                            android:layout_gravity="end"
+                            android:layout_marginEnd="31dp"
+                            android:layout_marginTop="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="18sp"
+                                android:textColor="#C2AA81"
+                                android:text="¥"/>
+
+                            <TextView
+                                android:id="@+id/tv_price_3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="24sp"
+                                android:textStyle="bold"
+                                android:layout_gravity="bottom"
+                                android:textColor="#C2AA81"
+                                android:text="25"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#848C9C"
+                                android:textSize="15sp"
+                                android:text="/1次"/>
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tv_change_price_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#C2AA81"
+                            android:textSize="12sp"
+                            android:layout_gravity="end"
+                            android:layout_marginEnd="24dp"
+                            android:layout_marginTop="60dp"
+                            android:paddingStart="12dp"
+                            android:paddingEnd="12dp"
+                            android:paddingTop="4dp"
+                            android:paddingBottom="4dp"
+                            android:background="@drawable/shape_set_fee_btn"
+                            android:text="修改"/>
+
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="69dp"
+                        android:background="@drawable/shape_setfee_content">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="14dp"
+                            android:text="患者购买一问一答产品后，您需要根据患者提交的病情资料和问题给出一个答案。"/>
+
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+    </RelativeLayout>
+
+
+</androidx.core.widget.NestedScrollView>

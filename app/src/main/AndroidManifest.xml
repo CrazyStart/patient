@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.sureemed.consumer">
+
+
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <!-- Barcode(二维码)  begin -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <!-- Barcode(二维码)  end -->
+
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.REPLACE_EXISTING_PACKAGE"/>
+
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+
+    <!-- Barcode(二维码)  begin -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- Barcode(二维码)  end -->
+
+
+    <!-- Push(推送)只能选择一个推送组件 -->
+    <!-- Push(推送)-MKeyPush begin -->
+    <!--
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    -->
+    <!-- Push(推送)-MKeyPush  end -->
+
+
+    <!-- 小米推送 -->
+    <!--
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.GET_TOP_ACTIVITY_INFO"/>
+    <uses-permission android:name="com.HBuilder.integrate.permission.MIPUSH_RECEIVE"/>
+    <permission android:name="com.HBuilder.integrate.permission.MIPUSH_RECEIVE" android:protectionLevel="signature"/>
+    -->
+    <!-- 小米推送 end -->
+
+
+    <!-- Push(推送)-个推  begin -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- Push(推送)-个推    end -->
+
+
+    <!-- Share(分享)  begin -->
+    <!-- Share - 新浪微博分享 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- Share - 腾讯微博分享 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- Share - 微信分享 -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <!-- Push(推送)   end -->
+
+
+    <!-- Speech(语音识别)  begin -->
+    <!-- Speech - 讯飞语音云 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- Speech(语音识别)  end -->
+
+
+    <!-- Statistic(统计)  begin -->
+    <!-- Statistic - 友盟统计 -->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <!-- Statistic(统计)  end -->
+
+
+    <!-- 小米分享 -->
+    <uses-permission android:name="com.xiaomi.permission.AUTH_SERVICE" />
+
+    <!-- 华为 -->
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- 三星 -->
+    <!--<uses-permission android:name="com.sec.android.provider.badge.permission.READ"/>-->
+    <!--<uses-permission android:name="com.sec.android.provider.badge.permission.WRITE"/>-->
+    <!-- OPPO -->
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS"/>
+    <!-- 联想ZUK -->
+    <uses-permission android:name="android.permission.READ_APP_BADGE"/>
+    <!-- HTC -->
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"/>
+
+    <application
+        android:name="io.dcloud.application.DCloudApplication"
+        android:allowBackup="true"
+        android:allowClearUserData="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true">
+
+        <!-- 应用入口 -->
+        <activity
+            android:name="io.dcloud.PandoraEntry"
+            android:theme="@style/TranslucentTheme"
+            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|fontScale"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <data android:scheme="hbuilder"/>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter>
+                <data android:mimeType="image/*"/>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+
+
+        <meta-data android:name="dcloud_uninview_background"
+            android:value="true"/>
+
+
+        <activity
+            android:name="io.dcloud.PandoraEntryActivity"
+            android:launchMode="singleTask"
+            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|fontScale|keyboard"
+            android:hardwareAccelerated="true"
+            android:permission="com.miui.securitycenter.permission.AppPermissionsEditor"
+            android:screenOrientation="user"
+            android:theme="@style/DCloudTheme"
+            android:windowSoftInputMode="adjustResize">
+
+            <intent-filter>
+
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+
+                <category
+                    android:name="android.intent.category.BROWSABLE" />
+
+                <action
+                    android:name="android.intent.action.VIEW" />
+
+                <data
+                    android:scheme="h56131bcf" />
+            </intent-filter>
+        </activity>
+
+
+        <meta-data android:name="WX_APPID" android:value="wx9a225b6a3a60b921">
+        </meta-data>
+<!--        <meta-data android:name="WX_SECRET" android:value="%微信开放平台申请应用的Secret%">-->
+<!--        </meta-data>-->
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:label="@string/app_name"
+            android:exported="true"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="wx9a225b6a3a60b921"/>
+            </intent-filter>
+        </activity>
+
+
+    </application>
+
+</manifest>

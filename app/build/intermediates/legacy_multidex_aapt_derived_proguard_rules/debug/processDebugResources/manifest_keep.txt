@@ -1,0 +1,10 @@
+# Referenced at /Users/xx/patient/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:157
+-keep class com.sureemed.consumer.rongim { <init>(); }
+# Referenced at /Users/xx/patient/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:157
+-keep class io.dcloud.application.DCloudApplication { <init>(); }
+# Referenced at /Users/xx/patient/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:302
+-keep class io.dcloud.multiprocess.activity.WebAppActivity1 { <init>(); }
+# Referenced at /Users/xx/patient/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:589
+-keep class io.rong.push.rongpush.PushReceiver { <init>(); }
+# Referenced at /Users/xx/patient/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:584
+-keep class io.rong.push.rongpush.PushService { <init>(); }

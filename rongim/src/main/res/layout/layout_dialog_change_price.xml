@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="33dp"
+        android:background="@drawable/shape_close_consult_bg">
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置图文咨询价格"
+            android:textColor="#222222"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#C2AA81"
+                android:textSize="23sp"
+                android:text="¥"/>
+
+            <EditText
+                android:id="@+id/edit_price"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:background="@null"
+                android:layout_marginStart="9dp"
+                android:textSize="14sp"
+                android:textColorHint="#BDBDBD"
+                android:hint="请输入图文价格"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="28dp"
+                android:textColor="#212121"
+                android:textSize="14sp"
+                android:text="元"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="17.5dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginEnd="12dp"
+            android:background="#FFCCCCCC"/>
+
+        <TextView
+            android:id="@+id/tv_sugess_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FF3754"
+            android:text="建议价格：30～60元"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/cancel_tv"
+                android:layout_width="118dp"
+                android:layout_height="40dp"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:background="@drawable/shape_set_fee_btn"
+                android:text="取消"/>
+
+            <TextView
+                android:id="@+id/confirm_tv"
+                android:layout_width="118dp"
+                android:layout_height="40dp"
+                android:textSize="16sp"
+                android:layout_marginStart="18dp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:background="@drawable/shape_send_consult_btn"
+                android:text="确定"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
